@@ -115,7 +115,7 @@ function buildCharts(sample) {
       xaxis: { tickangle: 0, zeroline: true },
       yaxis: { gridwidth: 1, zeroline: true },
       height: 425,
-      width: 900,
+      width: 500,
 
     };
     
