@@ -125,7 +125,7 @@ function buildCharts(sample) {
       xaxis: { tickangle: 0, zeroline: true },
       yaxis: { gridwidth: 1, zeroline: true },
       height: 425,
-      width: 900,
+      width: 450,
 
     };
     // 10. Use Plotly to plot the data with the layout. 
@@ -185,7 +185,7 @@ function buildCharts(sample) {
 
     // 5. Create the layout for the gauge chart.
     var gaugeLayout = { 
-      width: 500,
+      width: 450,
       height: 425
 
     };
