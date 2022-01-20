@@ -110,16 +110,12 @@ function buildCharts(sample) {
 
     //Create the layout for the bar chart. 
     var barLayout = {
-      title: "Top 10 Bacteria Cultures Found",
+      title: "<b>Top 10 Bacteria Cultures Found</b>",
       showlegend: false,
       xaxis: { tickangle: 0, zeroline: true },
       yaxis: { gridwidth: 1, zeroline: true },
       height: 425,
-<<<<<<< HEAD
-      width: 450,
-=======
       width: 500,
->>>>>>> 6feb56c3460bdba16f0487c09911cd45dc7be2cb
 
     };
     
@@ -142,7 +138,7 @@ function buildCharts(sample) {
 
     //Create the layout for the bubble chart.
     var bubbleLayout = {
-      title: "Bacteria Cultures per Sample",
+      title: "<b>Bacteria Cultures per Sample</b>",
       xaxis: { title: "OTU ID" },
     };
 
@@ -158,7 +154,7 @@ function buildCharts(sample) {
       {
         domain: { x: [0,1], y: [0,1]},
         value: wash_frequency,
-        title: {text: "Belly Button Washing Frequency"},
+        title: {text: "<b>Belly Button Washing Frequency</b> <br>Scrubs per Week</br>"},
         type: "indicator",
         mode: "gauge+number",
         gauge: {
