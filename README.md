@@ -2,7 +2,9 @@
 
 ## Technology Used in this Project
 
-The project uses a json data file to create an interactive dashboard. The project uses CSS, HTML and JavaScript and then publishes the document in github pages.  Go to settings > pages and then click the link to view and interact with the HTML dashboard.
+The project uses a json data file to create an interactive dashboard. The project uses CSS, HTML and JavaScript and then publishes the document in github pages.  Go to settings > pages and then click the link to view and interact with the HTML dashboard. See below for screen snapshot.
+
+![pages](https://github.com/ryanmorin/bellybutton/blob/main/pages.png)
 
 ## Projects Data
 
